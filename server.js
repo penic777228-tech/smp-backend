@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // ⚠️ SEM NAPIŠ SVOJE TAJNÉ HESLO (stejné dáš do shop.sk)
-const SECRET_KEY = 'mujSuperTajnyKlic2024';
+const SECRET_KEY = '0933226315';
 
 app.post('/api/create-order', (req, res) => {
   const { nickname, rankId, price } = req.body;
